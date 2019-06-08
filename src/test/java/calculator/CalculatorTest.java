@@ -31,6 +31,11 @@ public class CalculatorTest {
     }
 
     @Test
+    public void testPower() {
+        
+    }
+
+    @Test
     public void testDivision() {
         assertEquals(10, calc.divide(100,10), 0.0001);
     }
