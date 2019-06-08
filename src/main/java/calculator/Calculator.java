@@ -21,4 +21,8 @@ public class Calculator {
     public double divide(int p, int p1) {
         return (double) p/p1;
     }
+
+    public int power(int i) {
+        return i*i;
+    }
 }
